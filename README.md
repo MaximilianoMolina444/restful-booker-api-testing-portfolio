@@ -55,13 +55,3 @@ No publiques el entorno local, el token ni credenciales. `.gitignore` excluye lo
 
 El detalle está en [el índice de evidencias](Evidence/Indice_Evidencias_y_Plan_de_Verificacion.md), [el registro de hallazgos](Findings/Hallazgos.md) y [la revisión del paquete](Auditorias/Revision_Final_2026-10-25.md).
 
-## Publicarlo en GitHub
-
-La carpeta está preparada para crear un repositorio nuevo. No contiene un `.git` inicializado ni una licencia elegida.
-
-1. Extraé el paquete ZIP.
-2. Creá un repositorio vacío en GitHub, sin generar otro README ni otro `.gitignore`.
-3. Abrí la carpeta extraída con GitHub Desktop y creá el repositorio local desde esa carpeta.
-4. Revisá los archivos detectados, confirmá que no haya un entorno de Postman ni credenciales y recién entonces publicá el repositorio.
-
-Elegí una licencia antes de permitir que otras personas reutilicen el proyecto.

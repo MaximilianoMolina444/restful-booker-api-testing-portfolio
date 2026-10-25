@@ -1,0 +1,13 @@
+# Postman local environments and globals may contain credentials or tokens.
+*.postman_environment.json
+*.postman_globals.json
+*.postman_environment.local.json
+*.postman_globals.local.json
+
+# Local secrets and machine-specific settings.
+.env
+.env.*
+!.env.example
+*.local
+*.local.json
+
